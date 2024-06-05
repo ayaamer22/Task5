@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Currency Converter</h1>
+        <input type="number" id="shekelValue" placeholder="Enter value in Shekels">
+        <select id="currencySelect">
+            <option value="3">Dollar (USD)</option>
+            <option value="5">Dinar (JOD)</option>
+            <option value="1">Shekel (ILS)</option>
+        </select>
+        <button onclick="convertCurrency()">Convert</button>
+        <p id="result"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
